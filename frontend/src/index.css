@@ -1,0 +1,11 @@
+/* src/index.css */
+
+/* Tailwind import */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom import */
+@import url('assets/main.css');
+
+/* end */

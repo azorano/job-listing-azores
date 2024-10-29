@@ -1,0 +1,18 @@
+/* src/assets/css/colors.css */
+
+/*
+
+COLOR THEMES
+
+*/
+
+.green-theme {
+  background-color: lightgreen;
+  color: black;
+}
+
+.green-theme a {
+  color: violet;
+}
+
+/* end */

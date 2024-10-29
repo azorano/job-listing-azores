@@ -1,0 +1,92 @@
+/*  src/assets/css/fonts.css */
+
+/* Single font-family name and differ font-weight */
+@font-face {
+  font-family: "Merriweather";
+  font-style: normal;
+  font-display: swap;
+  src: url("../fonts/Merriweather_Web/Merriweather-Regular.woff2") format("woff2"), url("../fonts/Merriweather_Web/Merriweather-Regular.woff") format("woff"), url("../fonts/Merriweather_Web/Merriweather-Regular.ttf") format("truetype");
+  font-weight: 300; /* Regular */
+}
+
+@font-face {
+  font-family: "Merriweather";
+  font-style: italic;
+  font-display: swap;
+  src: url("../fonts/Merriweather_Web/Merriweather-Italic.woff2") format("woff2"), url("../fonts/Merriweather_Web/Merriweather-Italic.woff") format("woff"), url("../fonts/Merriweather_Web/Merriweather-Italic.ttf") format("truetype");
+  font-weight: 300; /* Italic */
+}
+
+@font-face {
+  font-family: "Merriweather";
+  font-style: normal;
+  font-display: swap;
+  src: url("../fonts/Merriweather_Web/Merriweather-Bold.woff2") format("woff2"), url("../fonts/Merriweather_Web/Merriweather-Bold.woff") format("woff"), url("../fonts/Merriweather_Web/Merriweather-Bold.ttf") format("truetype");
+  font-weight: 700; /* Bold */
+}
+
+@font-face {
+  font-family: "Merriweather";
+  font-style: normal;
+  font-display: swap;
+  src: url("../fonts/Merriweather_Web/Merriweather-Light.woff2") format("woff2"), url("../fonts/Merriweather_Web/Merriweather-Light.woff") format("woff"), url("../fonts/Merriweather_Web/Merriweather-Light.ttf") format("truetype");
+  font-weight: 100; /* Light */
+}
+
+@font-face {
+  font-family: "Merriweather";
+  font-style: normal;
+  font-display: swap;
+  src: url("../fonts/Merriweather_Web/Merriweather-Black.woff2") format("woff2"), url("../fonts/Merriweather_Web/Merriweather-Black.woff") format("woff"), url("../fonts/Merriweather_Web/Merriweather-Black.ttf") format("truetype");
+  font-weight: 900; /* Bold Bold */
+}
+
+/* Font sizes for different screen sizes */
+h1 {
+  font-size: clamp(1.75rem, 3vw + 0.75rem, 3.5rem);
+}
+
+h2 {
+  font-size: clamp(1.5rem, 2.5vw + 0.75rem, 3rem);
+}
+
+h3 {
+  font-size: clamp(1.375rem, 2vw + 0.7rem, 2.5rem);
+}
+
+h4 {
+  font-size: clamp(1.25rem, 1.75vw + 0.6rem, 2rem);
+}
+
+h5 {
+  font-size: clamp(1.125rem, 1.5vw + 0.5rem, 1.75rem);
+}
+
+h6 {
+  font-size: clamp(1rem, 1.25vw + 0.4rem, 1.5rem);
+}
+
+p,
+div,
+em {
+  font-size: clamp(0.9rem, 1vw + 0.4rem, 1rem);
+}
+
+small {
+  font-size: clamp(0.875rem, 0.9vw + 0.25rem, 0.975rem);
+}
+
+.copy,
+.smaller {
+  font-size: clamp(0.8rem, 0.85vw + 0.2rem, 0.9rem);
+}
+
+.notes {
+  font-size: clamp(0.75rem, 0.75vw + 0.2rem, 0.85rem);
+}
+
+.notesX2 {
+  font-size: clamp(0.5rem, 0.5vw + 0.13rem, 0.57rem);
+}
+
+/* end */

@@ -1,0 +1,21 @@
+# Node
+node_modules/
+.env
+
+# React
+build/
+
+# Logs
+*.log
+logs/
+
+# Project architecture
+__DOCS/
+DOCS/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Other
+.prettierrc
