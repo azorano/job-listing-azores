@@ -1,5 +1,5 @@
 {
-  "name": "frontend",
+  "name": "job-listing",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -19,7 +19,9 @@
     "typescript": "^4.9.5",
     "web-vitals": "^2.1.4"
   },
+  "type": "module",
   "scripts": {
+    "lint": "eslint .",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
